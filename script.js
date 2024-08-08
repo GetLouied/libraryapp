@@ -1,5 +1,5 @@
 /*** TODO ***
- * Create a Button to add a New Book to the application
+ * 
  * Create button functionality upon click to open a modal
  * After user submits input for new book, save data in variables
  * input the variables into addBookToLibrary, that creates a new object and adds to array
@@ -21,3 +21,5 @@ function Book(author, title, pageAmount, hasRead) {
 function addBookToLibrary(Book) {
   myLibrary.push(Book)
 }
+
+

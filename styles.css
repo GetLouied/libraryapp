@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-grid {
+    background-color: gray;
+    height: 100vh;
+
+    display: grid;
+    grid-template-rows: 100px 100px 4fr;
+}
+
+#header {
+    background-color: red;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#add-book {
+    background-color: blue;
+    grid-row: 2;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+#add-book button {
+    margin-top: 20px;
+    padding: 4px;
+}
+
+#card {
+    background-color: green;
+    grid-row: 3;
+}
