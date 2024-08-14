@@ -112,7 +112,7 @@
 #dialog {
     width: 90%;
     max-width: 600px;
-    height: 350px;
+    height: 400px;
     padding: 20px; 
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
@@ -185,7 +185,7 @@
 
 #close-dialog {
     position: absolute;
-    top: -10px; 
+    top: 5px; 
     right: 8px; 
     width: 20px; 
     height: 20px; 
